@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Booking Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Movie Booking Platform</h1>
+
+    <div class="container">
+      <div class="movie-selection">
+        <h2>Select Movie</h2>
+        <select id="movieSelect">
+          <option value="">--Select a Movie--</option>
+          <option value="movie1">Iron Man 1</option>
+          <option value="movie2">Iron Man 2</option>
+          <option value="movie3">Iron Man 3</option>
+        </select>
+      </div>
+
+      <div class="showtime-selection">
+        <h2>Select Showtime</h2>
+        <select id="showtimeSelect" disabled>
+          <option value="">--Select a Showtime--</option>
+        </select>
+      </div>
+
+      <div class="booking-info">
+        <h2>Booking Information</h2>
+        <p id="bookingDetails">Please select a movie and showtime.</p>
+        <button id="bookButton" disabled>Book Tickets</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
